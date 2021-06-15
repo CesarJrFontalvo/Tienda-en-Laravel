@@ -27,7 +27,7 @@
                                     <input type="number" class="form-control" name="price" value="{{ $product->price }}">
                                 </div><br>
                                 <button type="submit" class ="btn btn-primary ">Guardar</button>
-                                <a href="" class ="btn btn-danger">Cancelar</a>
+                                <a href="{{ route('products.index') }}" class ="btn btn-danger">Cancelar</a>
                             </form>
                         </div>
                 </div>
